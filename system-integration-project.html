@@ -7,6 +7,17 @@
   <title>Systems Integration Project - Joshua Castle</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .sip-gallery { margin-bottom: 40px; display: flex; flex-direction: column; gap: 5px; }
+    .sip-hero img { width: 100%; height: 400px; object-fit: cover; display: block; }
+    .sip-trio { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; }
+    .sip-trio img { width: 100%; height: 200px; object-fit: cover; display: block; }
+    @media (max-width: 768px) {
+      .sip-hero img { height: 240px; }
+      .sip-trio { grid-template-columns: 1fr; }
+      .sip-trio img { height: 200px; }
+    }
+  </style>
 </head>
 <body>
   <header class="mobile-header">
@@ -77,20 +88,20 @@
             <div class="project-date">2018</div>
           </div>
 
-          <div class="image-module">
-            <img src="https://cdn.myportfolio.com/84e7b15d-31d8-42ce-abfa-0a8d13d727e9/249b659c-6e4c-4774-8770-56c7fa95ef0f_rw_1920.jpg" alt="Systems Integration Project" />
-          </div>
-
           <div class="text-block">
             <p>When working on the Systems Integration project I learned how much I enjoyed working in a hands-on project that had the potential to make a difference. The goal of the project was to construct a solar-powered mobile marine monitoring station for the Marine Protection Agency. A station like this was already operating in Santa Barbara and the MPA wanted to deploy another station to a site in San Simeon.</p>
             <p>The work for the project was divided amongst several teams, each responsible for a particular system. I worked with the 'trailer team' to design and construct a frame to house all of the systems on the trailer. We modeled our work off the Santa Barbara station but made some design changes to make our trailer more rigid and to fit our different sized solar panels. I personally calculated the optimal angle for the solar panels, cut and welded steel, selected corrosion resistant marine paint for the wood panel siding and helped to put it all together.</p>
           </div>
 
-          <div class="image-grid">
-            <img src="images/sip-IMG_4967.jpg" alt="Team with solar panel trailer during build" />
-            <img src="images/sip-IMG_4997.jpg" alt="Full team at deployment site with lighthouse" />
-            <img src="images/sip-IMG_4996.jpg" alt="Deployed station at the coast" />
-            <img src="images/sip-IMG_4959.jpg" alt="Installing radar equipment with forklift" />
+          <div class="sip-gallery">
+            <div class="sip-hero">
+              <img src="images/sip-IMG_4997.jpg" alt="Team at deployment site with lighthouse, Piedras Blancas" />
+            </div>
+            <div class="sip-trio">
+              <img src="images/sip-IMG_4967.jpg" alt="Early build with solar panel trailer" />
+              <img src="images/sip-IMG_4959.jpg" alt="Installing radar with forklift" />
+              <img src="images/sip-IMG_4996.jpg" alt="Deployed station at the California coast" />
+            </div>
           </div>
         </div>
       </main>
