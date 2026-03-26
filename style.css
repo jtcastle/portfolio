@@ -53,6 +53,7 @@ body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #2c2c2c; 
 .site-nav { padding: 16px 0 20px; border-top: 1px solid #e8e8e8; }
 .nav-group { margin-bottom: 8px; }
 .nav-group ul { list-style: none; }
+.nav-group .gallery-title,
 .nav-group .gallery-title a {
   display: block;
   padding: 14px 24px 4px;
