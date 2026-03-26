@@ -12,7 +12,7 @@ body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #2c2c2c; 
 .splash-image-panel { flex: 0 0 50%; background: url("https://cdn.myportfolio.com/84e7b15d-31d8-42ce-abfa-0a8d13d727e9/b90b40c7-6dcd-45a5-974e-00279b19fc58_rwc_136x409x3297x2478x4096.png?h=39882484ec2875f52f9295058699cdda") center/cover no-repeat; }
 .splash-content { flex: 1; display: flex; align-items: center; justify-content: center; padding: 60px 80px; }
 .splash-inner { max-width: 560px; text-align: center; }
-.splash-inner .title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 2.8rem; font-weight: 300; margin-bottom: 24px; letter-spacing: 0.14em; text-transform: uppercase; color: #0a0a0a; }
+.splash-inner .title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 2.8rem; font-weight: 500; margin-bottom: 24px; letter-spacing: 0.08em; text-transform: uppercase; color: #0a0a0a; }
 .splash-inner p { font-size: 1.05rem; line-height: 1.75; color: #444; margin-bottom: 32px; font-weight: 400; }
 .splash-buttons { margin-bottom: 28px; display: flex; flex-direction: column; align-items: center; gap: 12px; }
 .btn { display: inline-block; padding: 12px 36px; border: 1.5px solid #1a1a1a; text-decoration: none; color: #1a1a1a; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.88rem; letter-spacing: 0.02em; font-weight: 500; border-radius: 40px; transition: all 0.2s ease; }
