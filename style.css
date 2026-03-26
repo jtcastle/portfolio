@@ -19,6 +19,7 @@ body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #2c2c2c; 
 .btn:hover { background: #1a1a1a; color: #fff; }
 .btn-primary { background: #1a1a1a; color: #fff; }
 .btn-primary:hover { background: #333; border-color: #333; }
+.btn-mobile-only { display: none; }
 
 /* Splash social icons */
 .splash-social { display: flex; gap: 18px; align-items: center; justify-content: center; margin-top: 12px; }
@@ -351,6 +352,8 @@ body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #2c2c2c; 
   .splash-image-panel { flex: 0 0 38vh; min-height: 220px; }
   .splash-content { padding: 40px 32px 48px; }
   .splash-inner .title { font-size: 2rem; }
+  .btn-desktop-only { display: none; }
+  .btn-mobile-only { display: inline-block; }
 
   /* Mobile header */
   .mobile-header { display: flex; }
