@@ -116,8 +116,8 @@ body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #2c2c2c; 
 .project-covers.three-items .project-cover:last-child:nth-child(odd) { grid-column: span 2; aspect-ratio: 2 / 1; }
 
 /* ===== PROJECT DETAIL PAGES ===== */
-.project-content { padding: 64px 72px 80px; max-width: 860px; }
-.project-title-block { margin-bottom: 52px; border-bottom: 1px solid #ebebeb; padding-bottom: 36px; text-align: center; }
+.project-content { padding: 40px 72px 80px; max-width: 860px; }
+.project-title-block { margin-bottom: 26px; border-bottom: 1px solid #ebebeb; padding-bottom: 18px; text-align: center; }
 .project-content h1 {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 1.65rem;
@@ -337,7 +337,7 @@ body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #2c2c2c; 
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1100px) {
-  .project-content { padding: 52px 48px 80px; }
+  .project-content { padding: 40px 48px 80px; }
   .gallery-header { padding: 44px 48px 0; }
 }
 
