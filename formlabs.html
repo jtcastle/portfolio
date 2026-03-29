@@ -116,7 +116,14 @@
           </div>
 
           <div class="image-module">
-            <img src="images/f4l_fly_backlight.gif" alt="Form 4L backlight unit fly-through" style="width:100%;display:block;background:#191919;" />
+            <div class="video-once-wrap" style="position:relative;background:#191919;">
+              <video class="video-once" autoplay muted playsinline style="width:100%;display:block;">
+                <source src="images/f4l_fly_backlight_ik_241008.mp4" type="video/mp4" />
+              </video>
+              <button class="video-replay-btn" aria-label="Replay" style="display:none;position:absolute;inset:0;width:100%;height:100%;background:rgba(0,0,0,0.45);border:none;cursor:pointer;color:#fff;font-size:1rem;letter-spacing:0.08em;">
+                &#9654;&ensp;Replay
+              </button>
+            </div>
             <div class="caption">Form 4L Backlight Unit — product fly-through</div>
           </div>
 
@@ -196,5 +203,17 @@
     </div>
   </div>
   <script src="nav.js"></script>
+  <script>
+    document.querySelectorAll('.video-once-wrap').forEach(function(wrap) {
+      var video = wrap.querySelector('.video-once');
+      var btn = wrap.querySelector('.video-replay-btn');
+      video.addEventListener('ended', function() { btn.style.display = ''; });
+      btn.addEventListener('click', function() {
+        btn.style.display = 'none';
+        video.currentTime = 0;
+        video.play();
+      });
+    });
+  </script>
 </body>
 </html>
