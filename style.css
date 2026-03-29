@@ -30,7 +30,7 @@ body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #2c2c2c; 
 
 /* ===== SIDEBAR LAYOUT ===== */
 .site-wrap { display: flex; min-height: 100vh; }
-.sidebar { width: 30vw; min-width: 260px; max-width: 420px; flex-shrink: 0; position: fixed; top: 0; left: 0; height: 100vh; overflow-y: auto; border-right: 1px solid #e8e8e8; background: #fff; z-index: 100; }
+.sidebar { width: 30vw; min-width: 260px; max-width: 420px; flex-shrink: 0; position: fixed; top: 0; left: 0; height: 100vh; overflow-y: auto; background: #fff; z-index: 100; }
 .site-main { margin-left: 30vw; flex: 1; min-width: 0; }
 
 /* Sidebar header / logo */
@@ -51,7 +51,7 @@ body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #2c2c2c; 
 .logo a:hover { color: #777; }
 
 /* Nav groups */
-.site-nav { padding: 16px 0 20px; border-top: 1px solid #e8e8e8; }
+.site-nav { padding: 16px 0 20px; }
 .nav-group { margin-bottom: 14px; }
 .nav-group ul { list-style: none; }
 .nav-group .gallery-title,
@@ -92,7 +92,6 @@ body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #2c2c2c; 
   gap: 22px;
   align-items: center;
   justify-content: center;
-  border-top: 1px solid #e8e8e8;
   margin-top: 8px;
 }
 .nav-social a { color: #ccc; text-decoration: none; display: flex; align-items: center; transition: color 0.15s; }
@@ -316,7 +315,7 @@ body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #2c2c2c; 
 }
 
 /* ===== FOOTER ===== */
-.site-footer { padding: 36px 56px 28px; border-top: 1px solid #ebebeb; display: flex; align-items: center; justify-content: center; gap: 20px; }
+.site-footer { padding: 36px 56px 28px; display: flex; align-items: center; justify-content: center; gap: 20px; }
 .footer-social { display: flex; gap: 16px; align-items: center; }
 .footer-social a { color: #ccc; text-decoration: none; display: flex; align-items: center; transition: color 0.15s; }
 .footer-social a:hover { color: #1a1a1a; }
