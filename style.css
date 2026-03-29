@@ -390,6 +390,6 @@ body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #2c2c2c; 
   /* Content */
   .project-content { padding: 28px 20px 50px; }
   .gallery-header { padding: 24px 20px 0; }
-  .image-grid { grid-template-columns: 1fr; }
+  .image-grid:not(.image-grid--fixed) { grid-template-columns: 1fr; }
   .site-footer { padding: 28px 20px 24px; }
 }
