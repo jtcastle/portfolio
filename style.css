@@ -187,7 +187,9 @@ body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #2c2c2c; 
 .image-module .caption { font-size: 0.75rem; color: #bbb; margin-top: 8px; font-style: italic; letter-spacing: 0.02em; }
 
 .video-labels { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; }
-.video-labels span { position: absolute; left: 5%; background: rgba(0,0,0,0.55); color: #fff; font-size: 0.72rem; font-family: inherit; letter-spacing: 0.06em; padding: 3px 8px; border-radius: 2px; white-space: nowrap; }
+.video-labels > span { position: absolute; right: 3%; display: flex; align-items: center; transform: translateY(-50%); }
+.label-line { display: block; width: 40px; height: 1px; background: #fff; flex-shrink: 0; }
+.label-pill { display: block; color: #fff; font-size: 0.7rem; font-family: inherit; letter-spacing: 0.05em; padding: 3px 9px; border: 1px solid #fff; border-radius: 3px; white-space: nowrap; background: rgba(0,0,0,0.3); }
 
 .image-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 28px; }
 .image-grid img { width: 100%; display: block; }
