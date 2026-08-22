@@ -194,6 +194,13 @@ body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #2c2c2c; 
 .image-grid img { width: 100%; display: block; }
 .image-grid .image-item .caption { font-size: 0.73rem; color: #bbb; margin-top: 6px; font-style: italic; }
 
+/* Press mention */
+.press-mention { margin-top: 18px; padding-top: 14px; border-top: 1px solid #f0f0f0; }
+.press-mention-label { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.63rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #999; margin-bottom: 6px; }
+.press-mention a { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.94rem; font-weight: 500; color: #1a1a1a; text-decoration: none; border-bottom: 1.5px solid #ccc; padding-bottom: 1px; transition: color 0.15s, border-color 0.15s; }
+.press-mention a:hover { color: #555; border-color: #555; }
+.press-mention-source { display: block; font-size: 0.78rem; color: #aaa; margin-top: 4px; font-style: italic; }
+
 /* Project links */
 .project-links { margin-top: 24px; display: flex; gap: 20px; flex-wrap: wrap; align-items: center; justify-content: center; }
 .project-links a { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.88rem; font-weight: 500; color: #333; text-decoration: none; border-bottom: 1.5px solid #aaa; padding-bottom: 3px; letter-spacing: 0.03em; transition: color 0.15s, border-color 0.15s; }
